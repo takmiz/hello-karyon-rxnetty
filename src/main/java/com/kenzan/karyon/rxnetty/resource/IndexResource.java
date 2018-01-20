@@ -59,7 +59,7 @@ public class IndexResource implements RequestHandler<ByteBuf, ByteBuf>{
                         } catch (Exception e){
                             e.printStackTrace();
                         }
-                        response.writeString("<html><head><style>body{text-align:center;font-family:'Lucida Grande'}</style></head><body><h2>Hello World01</h2></body></html>");
+                        response.writeString("<html><head><style>body{text-align:center;font-family:'Lucida Grande'}</style></head><body><h2>Hello World02</h2></body></html>");
                         return response.close();
                     }
                 });
